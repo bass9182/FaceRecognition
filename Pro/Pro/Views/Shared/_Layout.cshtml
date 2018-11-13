@@ -16,17 +16,15 @@
 <body>
     <nav class="navbar nav-background" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <img src="pic_trulli.jpg" alt="Italian Trulli">
-            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <img src="~/images/Web_Kios_icon/label.png" class="image-icon" style="width:40px;height:40px"/>
+            @*<div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>*@
         </div>
-        <div class="navbar-menu" style="color:#33CCFF">
-            <div class="navbar-start">
-               <h1 class="promotion">Promotion</h1>
-            </div>
+        <div style="color:#33CCFF">
+            <div class="promotion" style="color:white">Promotion</div>
         </div>
     </nav>
     <div class="columns background ">
@@ -72,11 +70,14 @@
         }
         .promotion {
             font-size: 32px;
-            padding-left: 80px;
+            padding-left: 10px;
             color:white;
 
         }
-
+        .image-icon {
+            margin-left: 20px;
+            margin-top: 7px;
+        }
         .background {
             background-color: #f5f5f5;
             min-height: 100%;
@@ -176,7 +177,7 @@
         <script src="~/js/buefy.js"></script>
     </environment>
 
-    <script>
+    @*<script>
         $(document).ready(function () {
 
             // Check for click events on the navbar burger icon
@@ -188,7 +189,7 @@
 
             });
         });
-    </script>
+    </script>*@
 
     @RenderSection("Scripts", required: false)
 </body>
