@@ -13,7 +13,7 @@
             message="This email is invalid">
             <b-input type="email"
                 value="john@"
-                maxlength="30">
+                maxlength="20">
             </b-input>
         </b-field>
 
