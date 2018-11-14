@@ -37,7 +37,7 @@
 </template>
 
 <script>
-  import utils from '../../../../../build/utils'
+  // import utils from '../../../../../build/utils'
 export default {
   name: 'page-home',
   data () {
