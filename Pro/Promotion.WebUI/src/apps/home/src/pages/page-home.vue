@@ -13,7 +13,7 @@
             message="This email is invalid">
             <b-input type="email"
                 value="john@"
-                maxlength="30">
+                maxlength="20">
             </b-input>
         </b-field>
 
@@ -37,7 +37,7 @@
 </template>
 
 <script>
-  import utils from '../../../../../build/utils'
+  // import utils from '../../../../../build/utils'
 export default {
   name: 'page-home',
   data () {
